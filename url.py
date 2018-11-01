@@ -39,7 +39,7 @@ class DownLoader(QDialog):
         #lineEdit.textChanged.connect(label.setText)
         #lineEdit.textChanged.connect( self.changeTextLabel )
 
-        self.setWindowTitle("Costas Utils - downLoad")
+        self.setWindowTitle("Costas Utils - File downLoad")
         #self.windowIcon("")
         self.setFocus()
 
