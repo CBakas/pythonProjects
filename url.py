@@ -13,7 +13,7 @@ class DownLoader(QDialog):
 
         self.url            =   QLineEdit()
         self.saveLocation   =   QLineEdit()
-        self.buttonSaveFile =   QPushButton( ".." )
+        self.buttonSaveFile =   QPushButton( "save the file ..." )
         self.progressBar    =   QProgressBar()
         self.buttonDownload =   QPushButton("download")
         self.buttonExit     =   QPushButton( "exit" )
